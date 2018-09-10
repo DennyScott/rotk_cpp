@@ -1,11 +1,10 @@
-#include "players/player.h"
 #include <iostream>
+#include <board/board.h>
 
 int main()
 {
-    Player player("Denny");
+    Board board;
 
-    std::cout << player.getName() << std::endl;
-
+    board.outputBoard();
     return 0;
 }
